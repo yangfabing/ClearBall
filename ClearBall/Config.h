@@ -13,7 +13,7 @@
 
 #endif
 
-#define WidthToTop   100
+#define WidthToTop   150
 #define BallWidth    40
 #define BallHeight   40
 

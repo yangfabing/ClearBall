@@ -7,6 +7,7 @@
 //
 
 #import "MainViewController.h"
+#import "GameViewController.h"
 
 @interface MainViewController ()
 
@@ -25,6 +26,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.navigationController.navigationBarHidden = YES;
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -32,4 +35,8 @@
     [super didReceiveMemoryWarning];
 }
 
+- (IBAction)start:(id)sender {
+    GameViewController *controller =[[GameViewController alloc] initWithNibName:@"GameViewController" bundle:nil];
+    [self.navigationController pushViewController:controller animated:YES];
+}
 @end

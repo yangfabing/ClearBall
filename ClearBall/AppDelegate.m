@@ -14,8 +14,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.gameViewController = [[GameViewController alloc] initWithNibName:@"GameViewController" bundle:nil];
-    [self.window setRootViewController:_gameViewController];
+    self.viewContoller = [[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:_viewContoller];
+    [self.window setRootViewController:navController];
     [self.window makeKeyAndVisible];
     return YES;
 }

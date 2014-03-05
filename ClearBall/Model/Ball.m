@@ -24,11 +24,13 @@
         self.ballNum = num;
         self.xyPosition = xy;
         self.ballImage = [[UIImageView alloc] initWithFrame:self.frame];
-        CGFloat red = arc4random()%255;
-        CGFloat green = arc4random()%255;
-        CGFloat blue = arc4random()%255;
-
-        [self.ballImage setBackgroundColor:[UIColor colorWithRed:red/255.0 green:green/255.0 blue:blue/255.0 alpha:1]];
+//        CGFloat red = arc4random()%255;
+//        CGFloat green = arc4random()%255;
+//        CGFloat blue = arc4random()%255;
+//
+//        [self.ballImage setBackgroundColor:[UIColor colorWithRed:red/255.0 green:green/255.0 blue:blue/255.0 alpha:1]];
+        
+        [self.ballImage setImage:[UIImage imageNamed:[NSString stringWithFormat:@"ball_%d.png",num]]];
         
         numLabel = [[UILabel alloc] initWithFrame:self.frame];
         numLabel.textAlignment = NSTextAlignmentCenter;

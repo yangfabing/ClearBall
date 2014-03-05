@@ -24,6 +24,18 @@
 		B25D818618C5B8AD002A49E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25D816818C5B8AD002A49E9 /* UIKit.framework */; };
 		B25D818E18C5B8AD002A49E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B25D818C18C5B8AD002A49E9 /* InfoPlist.strings */; };
 		B25D819018C5B8AD002A49E9 /* ClearBallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B25D818F18C5B8AD002A49E9 /* ClearBallTests.m */; };
+		B27A2C5718C7050600F16D47 /* ball_9.png in Resources */ = {isa = PBXBuildFile; fileRef = B27A2C4E18C7050600F16D47 /* ball_9.png */; };
+		B27A2C5818C7050600F16D47 /* ball_8.png in Resources */ = {isa = PBXBuildFile; fileRef = B27A2C4F18C7050600F16D47 /* ball_8.png */; };
+		B27A2C5A18C7050600F16D47 /* ball_2.png in Resources */ = {isa = PBXBuildFile; fileRef = B27A2C5118C7050600F16D47 /* ball_2.png */; };
+		B27A2C5B18C7050600F16D47 /* ball_5.png in Resources */ = {isa = PBXBuildFile; fileRef = B27A2C5218C7050600F16D47 /* ball_5.png */; };
+		B27A2C5C18C7050600F16D47 /* ball_3.png in Resources */ = {isa = PBXBuildFile; fileRef = B27A2C5318C7050600F16D47 /* ball_3.png */; };
+		B27A2C5D18C7050600F16D47 /* ball_4.png in Resources */ = {isa = PBXBuildFile; fileRef = B27A2C5418C7050600F16D47 /* ball_4.png */; };
+		B27A2C5E18C7050600F16D47 /* ball_6.png in Resources */ = {isa = PBXBuildFile; fileRef = B27A2C5518C7050600F16D47 /* ball_6.png */; };
+		B27A2C5F18C7050600F16D47 /* ball_7.png in Resources */ = {isa = PBXBuildFile; fileRef = B27A2C5618C7050600F16D47 /* ball_7.png */; };
+		B27A2C6318C712AD00F16D47 /* ball_1.png in Resources */ = {isa = PBXBuildFile; fileRef = B27A2C6218C712AD00F16D47 /* ball_1.png */; };
+		B27A2C6618C71BFD00F16D47 /* box.png in Resources */ = {isa = PBXBuildFile; fileRef = B27A2C6418C71BFD00F16D47 /* box.png */; };
+		B27A2C6718C71BFD00F16D47 /* zhuzi.png in Resources */ = {isa = PBXBuildFile; fileRef = B27A2C6518C71BFD00F16D47 /* zhuzi.png */; };
+		B27A2C6918C71ECF00F16D47 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = B27A2C6818C71ECF00F16D47 /* bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +74,18 @@
 		B25D818B18C5B8AD002A49E9 /* ClearBallTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClearBallTests-Info.plist"; sourceTree = "<group>"; };
 		B25D818D18C5B8AD002A49E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B25D818F18C5B8AD002A49E9 /* ClearBallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClearBallTests.m; sourceTree = "<group>"; };
+		B27A2C4E18C7050600F16D47 /* ball_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball_9.png; sourceTree = "<group>"; };
+		B27A2C4F18C7050600F16D47 /* ball_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball_8.png; sourceTree = "<group>"; };
+		B27A2C5118C7050600F16D47 /* ball_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball_2.png; sourceTree = "<group>"; };
+		B27A2C5218C7050600F16D47 /* ball_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball_5.png; sourceTree = "<group>"; };
+		B27A2C5318C7050600F16D47 /* ball_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball_3.png; sourceTree = "<group>"; };
+		B27A2C5418C7050600F16D47 /* ball_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball_4.png; sourceTree = "<group>"; };
+		B27A2C5518C7050600F16D47 /* ball_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball_6.png; sourceTree = "<group>"; };
+		B27A2C5618C7050600F16D47 /* ball_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball_7.png; sourceTree = "<group>"; };
+		B27A2C6218C712AD00F16D47 /* ball_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball_1.png; sourceTree = "<group>"; };
+		B27A2C6418C71BFD00F16D47 /* box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box.png; sourceTree = "<group>"; };
+		B27A2C6518C71BFD00F16D47 /* zhuzi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhuzi.png; sourceTree = "<group>"; };
+		B27A2C6818C71ECF00F16D47 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +181,18 @@
 		B25D816B18C5B8AD002A49E9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B27A2C6818C71ECF00F16D47 /* bg.png */,
+				B27A2C6418C71BFD00F16D47 /* box.png */,
+				B27A2C6518C71BFD00F16D47 /* zhuzi.png */,
+				B27A2C6218C712AD00F16D47 /* ball_1.png */,
+				B27A2C4E18C7050600F16D47 /* ball_9.png */,
+				B27A2C4F18C7050600F16D47 /* ball_8.png */,
+				B27A2C5118C7050600F16D47 /* ball_2.png */,
+				B27A2C5218C7050600F16D47 /* ball_5.png */,
+				B27A2C5318C7050600F16D47 /* ball_3.png */,
+				B27A2C5418C7050600F16D47 /* ball_4.png */,
+				B27A2C5518C7050600F16D47 /* ball_6.png */,
+				B27A2C5618C7050600F16D47 /* ball_7.png */,
 				B25D816C18C5B8AD002A49E9 /* ClearBall-Info.plist */,
 				B25D816D18C5B8AD002A49E9 /* InfoPlist.strings */,
 				B25D817018C5B8AD002A49E9 /* main.m */,
@@ -260,9 +296,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				B244EB7418C5C9DB007BC8A9 /* GameViewController.xib in Resources */,
+				B27A2C6318C712AD00F16D47 /* ball_1.png in Resources */,
+				B27A2C6918C71ECF00F16D47 /* bg.png in Resources */,
+				B27A2C5A18C7050600F16D47 /* ball_2.png in Resources */,
+				B27A2C5818C7050600F16D47 /* ball_8.png in Resources */,
 				B25D817D18C5B8AD002A49E9 /* Images.xcassets in Resources */,
+				B27A2C6618C71BFD00F16D47 /* box.png in Resources */,
+				B27A2C5F18C7050600F16D47 /* ball_7.png in Resources */,
+				B27A2C6718C71BFD00F16D47 /* zhuzi.png in Resources */,
+				B27A2C5C18C7050600F16D47 /* ball_3.png in Resources */,
 				B244EB6B18C5BCF7007BC8A9 /* MainViewController.xib in Resources */,
 				B25D816F18C5B8AD002A49E9 /* InfoPlist.strings in Resources */,
+				B27A2C5B18C7050600F16D47 /* ball_5.png in Resources */,
+				B27A2C5E18C7050600F16D47 /* ball_6.png in Resources */,
+				B27A2C5D18C7050600F16D47 /* ball_4.png in Resources */,
+				B27A2C5718C7050600F16D47 /* ball_9.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

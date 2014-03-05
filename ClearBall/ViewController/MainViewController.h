@@ -10,4 +10,5 @@
 
 @interface MainViewController : UIViewController
 
+- (IBAction)start:(id)sender;
 @end
